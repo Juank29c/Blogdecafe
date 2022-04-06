@@ -75,10 +75,16 @@ img{
 
 /** HEADER**/
 
+.webp .header{
+    background-image: url(/img/banner.webp);
+}
+
+.nowebp .header{
+    background-image: url(/img/banner.jpg);
+}
 .header {
     height: 60rem;
    /*border: 1px solid black;*/
-    background-image: url(/img/banner.jpg);
     background-size: cover; /*toma todo el espacio disponible*/
     background-repeat: no-repeat;
     background-position: center center; /*parte de la imagen que se desea ver*/
