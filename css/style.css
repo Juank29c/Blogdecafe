@@ -201,11 +201,11 @@ img{
     font-weight: 700;
 }
 
-.widget-curso__info, .curso__info{
+.widget-curso__info, .curso__info, .entrada__texto{
     font-weight: 400;
 }
 
-.widget-curso__label, .widget-curso__info, .curso__label, .curso__info{
+.widget-curso__label, .widget-curso__info, .curso__label, .curso__info, .entrada__texto{
     font-size: 2rem;
 }
 
@@ -246,4 +246,10 @@ img{
 
 .curso:last-of-type{
     border: none;
+}
+
+/** ENTRADA **/
+
+.entrada__imagen{
+    margin: 6rem 0;
 }
