@@ -253,3 +253,13 @@ img{
 .entrada__imagen{
     margin: 6rem 0;
 }
+
+/** CONTACTO **/
+
+.contacto__imagen{
+    background-image: url(/img/contacto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40rem;
+    margin: 5rem 0;
+}
